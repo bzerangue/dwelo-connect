@@ -53,7 +53,7 @@ class DweloLockDevice(LockDevice):
     @property
     def should_poll(self):
         """No polling needed."""
-        return False
+        return True
 
     @property
     def name(self):

@@ -68,7 +68,7 @@ class DweloThermostatDevice(ClimateDevice):
     @property
     def should_poll(self):
         """No polling needed."""
-        return False
+        return True
 
     @property
     def supported_features(self):
