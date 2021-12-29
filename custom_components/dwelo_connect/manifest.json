@@ -3,5 +3,6 @@
   "name": "Dwelo Connect",
   "documentation": "https://github.com/bzerangue/dwelo-connect",
   "requirements": [],
-  "codeowners": ["@jesse-schein", "@bzerangue"]
+  "codeowners": ["@jesse-schein", "@bzerangue"],
+  "version": "0.1.0"
 }
