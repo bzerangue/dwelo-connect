@@ -18,7 +18,7 @@ class DweloDevice(object):
 
     def GetState(self, afterSet: bool = False):
         if afterSet:
-            time.sleep(2)
+            time.sleep(5)
         states = self._client.doGet(f"v3/sensor/gateway/{self._gatewayid}/")["results"]
         filt = list(filter(lambda x: int(x["deviceId"]) == int(self._deviceid), states))
        # _LOGGER.info(json.dumps(filt, indent=4, sort_keys=True))
