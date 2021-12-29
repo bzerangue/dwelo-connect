@@ -2,7 +2,9 @@
   "domain": "dwelo_connect",
   "name": "Dwelo Connect",
   "documentation": "https://github.com/bzerangue/dwelo-connect",
+  "dependencies": [],
+  "codeowners": [],
   "requirements": [],
-  "codeowners": ["@jesse-schein", "@bzerangue"],
+  "iot_class": "cloud_polling",
   "version": "0.1.0"
 }
