@@ -18,6 +18,7 @@ _LOGGER = logging.getLogger(__name__)
 CONF_LANGUAGE = "language"
 CONF_RETRY = "retry"
 
+DEFAULT_NAME = "Dwelo"
 DEFAULT_TIMEOUT = 5
 DEFAULT_RETRY = 10
 DWELO_DEVICES = "dwelo_devices"
