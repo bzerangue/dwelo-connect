@@ -28,7 +28,7 @@ DEFAULT_RETRY = 10
 DWELO_DEVICES = "dwelo_devices"
 DWELO_PLATFORMS = ["climate", "switch", "lock"]
 
-DOMAIN = "dwelo_connect"
+DOMAIN = 'dwelo_connect'
 
 CONFIG_SCHEMA = vol.Schema(
     {
