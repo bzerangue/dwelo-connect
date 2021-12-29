@@ -1,6 +1,6 @@
 {
-  "domain": "dwelo",
-  "name": "Dwelo",
+  "domain": "dwelo_connect",
+  "name": "Dwelo Connect",
   "documentation": "https://github.com/bzerangue/dwelo-connect",
   "requirements": [],
   "codeowners": ["@jesse-schein", "@bzerangue"]
