@@ -10,8 +10,12 @@ from importlib import import_module
 
 # DweloConnect = import_module(".DweloConnect")
 from .DweloConnect.dwelo import DweloAccount
+from .DweloConnect.dwelo_device import DweloDevice
+from .DweloConnect.dwelo_sensor import DweloSensor
 from .DweloConnect.dwelo_thermostat import DweloThermostat
+from .DweloConnect.dwelo_lock import DweloLock
 from .DweloConnect.dwelo_switch import DweloSwitch
+
 
 _LOGGER = logging.getLogger(__name__)
 
